@@ -7,15 +7,11 @@ This repository houses a project focused on using neural networks for image clas
 
 We begin with a straightforward CNN model to set our baseline. To enhance our model's performance, we delve into transfer learning, leveraging the EfficientNet_B0 architecture. By doing so, we aim to benefit from the features already learned by this model on vast datasets and adapt them to our specific task.
 
-## ## Dataset Description
+## Dataset Description
 
-The dataset used in this project is organized into specific folders:
+The project relies on a dataset comprising two distinct subsets: 'humans' and 'horses'. These subsets are not based on real-world images but rather examples where the primary object in the image is distinctly either a horse or a human. Each subset is neatly organized into its dedicated folder, ensuring that the images are effectively labeled.
 
-- **Image_classification_data**: The primary dataset is separated into 'train' and 'test' folders. Within each, there are further sub-folders dedicated to 'humans' and 'horses', ensuring a clear distinction between the two classes.
-  
-- **Test_Real_Images_Human_Horsesr**: Apart from the standard training and testing sets, there's an additional folder containing real-world images. These images serve as a practical testbed, allowing us to evaluate our model's performance in real-life scenarios.
-
-Using this structured dataset ensures that our models can be trained, validated, and tested effectively.
+Furthermore, to gauge our model's performance in real-life situations, we use a set of actual real-world images. This practical testbed challenges the model outside of the controlled dataset environment, offering insights into its real-world applicability.
 
 ## Key Features
 
